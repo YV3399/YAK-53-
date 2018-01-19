@@ -5,9 +5,9 @@
    xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 
  <fileheader>
-  <author> Makswell, YV3399 + Aeromatic v 1.0 </author>
+  <author> Makswell + Aeromatic v 0.91 </author>
   <filecreationdate> 2011-05-04 </filecreationdate>
-  <version>$Revision: 2.0 $</version>
+  <version>$Revision: 1.10 $</version>
   <description> Models a Yak-53. </description>
  </fileheader>
 
@@ -198,7 +198,6 @@
     <damping_coeff unit="LBS/FT/SEC">   467 </damping_coeff>
  </contact>
  
-
   <contact type="STRUCTURE" name="LEFT_TIRE">
     <location unit="IN">
      <x> 65 </x>
@@ -223,7 +222,6 @@
     <damping_coeff unit="LBS/FT/SEC">  467.46 </damping_coeff>
  </contact>
   
-
   <contact type="STRUCTURE" name="LEFT_WING">
     <location unit="IN">
      <x> 89.5 </x>
@@ -272,7 +270,6 @@
     <damping_coeff unit="LBS/FT/SEC">   467 </damping_coeff>
  </contact>
  
-
  </ground_reactions>
 
  <propulsion>
@@ -425,7 +422,7 @@
       <input>fcs/yaw-trim-cmd-norm</input>
       <clipto>
         <min> -0.75 </min>
-        <max>  0.25 </max>
+        <max>  0.75 </max>
       </clipto>
    </summer>
 
@@ -433,7 +430,7 @@
       <input>fcs/rudder-command-sum</input>
       <range>
         <min> -0.75 </min>
-        <max>  0.35 </max>
+        <max>  0.75 </max>
       </range>
       <output>fcs/rudder-pos-rad</output>
    </aerosurface_scale>
