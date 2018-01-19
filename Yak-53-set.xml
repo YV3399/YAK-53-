@@ -2,7 +2,7 @@
 
 <PropertyList>
 
-  <controls>
+ <controls>
    <lamp-test>0</lamp-test>
    <canopy>
      <canopy-pos-norm type="float">1.0</canopy-pos-norm>
@@ -44,10 +44,9 @@
  <sim>
 
   <description>Yakovlev Yak-53</description>
-  <author>HerbyW, Gabriel Hernandez(YV3399)</author>
-  <status>1.10</status>
+  <author>Gabriel Hernandez (YV3399) And HerbyW</author>
+  <status>2.0</status>
   
-
 <rating>
  <FDM type="int">4</FDM>
  <systems type="int">4</systems>
@@ -56,9 +55,17 @@
 </rating>
 
   <startup>
-   <splash-texture>Aircraft/Yak-53/Yak-53.png</splash-texture>
+   <splash-texture>Aircraft/Yak-53/Splash/splash-1.png</splash-texture>
+   <splash-texture>Aircraft/Yak-53/Splash/splash-2.png</splash-texture>
   </startup>
-
+              <previews>
+			<preview>
+				<type>exterior</type>
+				<splash type="bool">true</splash>
+				<path>Splash/splash-1.png</path>
+			</preview>
+		</previews>       
+              
      <help>
         <title>Yakovlev Yak-53</title>
         <line></line>
@@ -116,8 +123,7 @@
             </menu>
         </default>
     </menubar>
-
-	
+    
 <view n="1">
   <config>
    <target-z-offset-m archive="y" type="double">2.15</target-z-offset-m>
@@ -141,8 +147,6 @@
    <target-z-offset-m archive="y" type="double">2.15</target-z-offset-m>
   </config>
  </view>	
-	
-	
 	
   <view n="0">
     <name>Compass View</name>
@@ -178,7 +182,6 @@
    </config>
   </view>
   
-  
   <view n="101">
     <name>Aerobatics View</name>
     <type>lookfrom</type>
@@ -212,7 +215,6 @@
    </config>
   </view> 
 
-
   <flight-model>jsb</flight-model>
   <aero>Yak-53</aero>
 
@@ -235,8 +237,6 @@
    <path>Aircraft/Yak-53/Sounds/Yak-53-sound.xml</path>
  </sound>
 
-
- 
   <!--MP-support added: HerbyW 06-2015 -->
   
   <multiplay>
@@ -255,7 +255,6 @@
     <int n="10" alias="/controls/smoke-red"/>
     <int n="11" alias="/controls/smoke-blue"/>
     <int n="12" alias="/controls/smoke-white"/>
-    
     <float n="0" alias="/controls/canopy/canopy-pos-norm"/>
     <float n="1" alias="/controls/engines/engine/propeller-pitch"/>
     <float n="2" alias="/surface-positions/rudder-pos-norm"/>
@@ -285,11 +284,7 @@
  <max-positive-g>7.0</max-positive-g>
  <max-negative-g>-5.0</max-negative-g>
 </limits>
- 
 
-
-
-  
  <!-- Key bindings -->
 
  <input>
@@ -613,8 +608,6 @@
      </keyboard>
    </input>
    
-   
-  
 <!-- Nasal files/scripts -->
   <nasal>
     <Yak-53>

@@ -1,0 +1,143 @@
+By Gabriel Hernandez(YV3399)
+English translated version:
+-----------------------------------------------------------------
+
+Start the engine and prepare for take-off.
+
+1.Open the air shutter. (Shift + ~)
+
+2. Apply the parking brake. (Shift + b)
+
+3. Set the throttle to the 1/3 turn position. (PgUp / PgDn)
+
+4. Set the filling syringe pressure
+  at the entrance to the carburetor no less than 0.4
+  
+5. Switch on the filling stations from 1 to 7 (except HEAO LOAD).
+
+6. Switch the magneto to position 1 + 2.
+
+7.Open the protective cover and press
+  MUSIC START button.
+
+8.RUD-th install engine speed of 45-50%.
+  (At a speed of more than 33% should go out
+   the transparency is the FAILURE OF THE GENERATOR).
+
+9. Preheat engine to oil temperature
+  less than 40 * С, the heads of the cylinders are not less than 120 * С.
+  (During warm-up, zero can be set
+  altimeter, reset the meter
+  overload, check the voltage of the board
+  and serviceability of warning lamps and indicator lamps
+  residual fuel).
+  
+10.Before taking off in order to avoid exceeding the temperature
+   cylinder heads open butterfly valve sashes
+   and FULLY open the engine doors.
+
+
+Engine stop.
+
+1.Fully open the engine doors.
+
+2. At 20-30 seconds, set the speed to about 65% for
+  burning candles.
+  
+3. Reduce the speed to 28-34%.
+
+4. Turn off the magneto (move to position 0).
+
+5. After stopping the engine, the throttle is translated into
+  position. minimum gas.
+  
+6. Close the fire cock.
+
+7. Turn off all the gas stations.
+
+8.Close the air shutter.
+
+LIMITATIONS
+
+1.Vzlet with unheated engine leads
+   to stop it.
+  
+2. At a speed of more than 385 km / h - tear off the flashlight.
+
+3. RUNNING the flaps at a speed of more than 170 km / h
+   leads to their separation.
+
+4. Driving at a speed of more than 165 km / h or landing
+   with an overload of more than 3 g "breaks" the chassis.
+
+5. The warmed-up engine starts to smoke.
+
+-----------------------------------------------------------------
+Starting and preparing for the start.
+
+1.Otkryt pnevmokran. (Shift + ~)
+
+2. Press the parking brake. (Shift + b)
+
+3. Place the throttle in position 1/3 turn. (PgUp / PgDn)
+
+4. Install the primer syringe pressure
+   at entry into the carburetor less than 0,4
+  
+5.Vklyuchit ACS-s 1 to 7 (except HEAT LDPE).
+
+6.Pereklyuchatel magneto set to 1 + 2.
+
+7.Otkryt protective cover, and press
+   MOTOR START button.
+
+8.RUD th by 45-50% adjust the engine speed.
+   (At speeds of more than 33% pagasnut should
+    banner generator failure).
+
+9.Progret engine until the oil temperature is not
+   less than 40 * C, the cylinder heads of at least 120 * C.
+   (During the warm-up phase can be set to zero
+   Altimeter, reset the counters
+   Overload, check the voltage in the wiring
+   and the condition of the warning lights and indicators
+   Residual fuel).
+  
+10.Pered start to avoid over-temperature
+    Cylinder heads open blade oil cooler
+    and open the engine flap.
+
+Stop the engine.
+
+1.Polnostyu open flap motor.
+
+2. Click in 20-30 seconds to establish a turnover of about 65% for
+   burning candles.
+  
+3.Snit speed to 28 to 34%.
+
+4.Vyklyuchit Magnetos (set to 0).
+
+5. After switching off the engine, translate the throttle lever into
+   the position of the minimum gas.
+  
+6.Zakryt hydrants.
+
+7.Vyklyuchit all gas stations.
+
+8.Zakryt pnevmokran.
+
+LIMITATIONS
+
+1.Vzlet with cold engine results
+   to stop him.
+  
+2. At a speed of more than 385 km / h - breaks lantern.
+
+3.VYPUSK guards at a speed of over 170 km / h
+   leads to their separation.
+
+4.Ezda at a speed of over 165 km / h or land
+   with an overload of more than 3 g "kinks" chassis.
+
+5.Peregrety engine starts to smoke.

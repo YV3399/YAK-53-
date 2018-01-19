@@ -2,7 +2,6 @@
  
 <!-- Generic Autopilot Configuration , softer reaction implemented by HerbyW 06-2015-->
 
-
 <PropertyList>
 
   <!-- =============================================================== -->
@@ -10,6 +9,7 @@
   <!-- =============================================================== -->
 
   <!-- Wing leveler --> 
+
   <pid-controller>
     <name>Wing Leveler (Turn Coordinator based)</name>
     <debug>false</debug>
@@ -73,6 +73,7 @@
   </pid-controller>
 
   <!-- Stage #2 drives the ailerons to achieve the desired roll deg. -->
+
   <pid-controller>
     <name>Heading Bug Hold (DG based) Stage 2</name>
     <debug>false</debug>
@@ -264,6 +265,7 @@
    </pid-controller>
 
  <!-- Simple angle of attack hold --> 
+
  <pid-controller>
     <name>AOA hold</name>
     <debug>false</debug>
@@ -322,6 +324,7 @@
   </pi-simple-controller>
 
   <!-- Stage #2 drives the elevator-trim to achieve the desired climb rate. -->
+
   <pid-controller>
     <name>Altitude Hold (Altimeter based) Stage 2</name>
     <debug>false</debug>
@@ -442,6 +445,7 @@
   </pid-controller>
 
   <!-- vertical speed hold -->
+
   <pid-controller>
     <name>Vertical Speed Hold</name>
     <debug>false</debug>
@@ -513,6 +517,7 @@
   </pid-controller>
 
  <!-- Hold speed by varying pitch trim (Two stage cascading controller) --> 
+
  <pid-controller>
     <name>Speed hold (vary pitch trim) Stage #1</name>
     <debug>false</debug>

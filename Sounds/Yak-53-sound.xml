@@ -33,8 +33,6 @@
    </volume>
   </stop>
   
-  
-  
   <crank>
    <name>crank1</name>
    <mode>looped</mode>
@@ -69,7 +67,7 @@
    </volume>
   </crank>
 
-<engineI>
+  <engineI>
    <name>engineI</name>
    <mode>looped</mode>
    <path>Aircraft/Yak-53/Sounds/Yak-53_I.wav</path>
@@ -102,7 +100,6 @@
     <offset>0.0</offset>
    </pitch>
   </engineI>
-
 
   <engineIL>
    <name>engineIL</name>
@@ -137,8 +134,7 @@
    </pitch>
   </engineIL>
 
-
-<engineLH>
+  <engineLH>
    <name>engineLH</name>
    <mode>looped</mode>
    <path>Aircraft/Yak-53/Sounds/Yak-53_L.wav</path>
@@ -172,7 +168,6 @@
    </pitch>
   </engineLH>
 
-
   <engineH>
    <name>engineH</name>
    <mode>looped</mode>
@@ -205,7 +200,6 @@
     <offset>0.0</offset>
    </pitch>
   </engineH>
-
 
 <!-- ============== Engine Canopy close ================ -->  
  <engineIC>
@@ -244,7 +238,6 @@
    </pitch>
   </engineIC>
 
-
   <engineILC>
    <name>engineILC</name>
    <mode>looped</mode>
@@ -280,8 +273,7 @@
    </pitch>
   </engineILC>
 
-
-<engineLHC>
+ <engineLHC>
    <name>engineLHC</name>
    <mode>looped</mode>
    <path>Aircraft/Yak-53/Sounds/Yak-53_L.wav</path>
@@ -317,7 +309,6 @@
    </pitch>
   </engineLHC>
 
-
   <engineHC>
    <name>engineHC</name>
    <mode>looped</mode>
@@ -352,7 +343,6 @@
     <offset>0.0</offset>
    </pitch>
   </engineHC>
-
 
 <!-- ============== gear ================ -->
 
@@ -392,7 +382,6 @@
     <z>-0.80</z>
    </position>
 </click>
-
 
 <gearL>
  <name>gear lock</name>
@@ -506,9 +495,9 @@
    </pitch>
   </squeal>
 
-
 <!-- ========= Flaps ============= -->
-<click>
+
+ <click>
  <name>flapsDown</name>
  <mode>in-transit</mode>
  <path>Aircraft/Yak-53/Sounds/Yak-53_flaps.wav</path>
@@ -521,9 +510,9 @@
     <y>0.0</y>
     <z>-0.80</z>
    </position>
-</click>
+ </click>
 
-<click>
+ <click>
  <name>flapsCrash</name>
  <path>Aircraft/Yak-53/Sounds/Yak-53_flaps-crash.wav</path>
    <condition>
@@ -539,9 +528,10 @@
     <y>0.0</y>
     <z>-0.80</z>
    </position>
-</click>
+ </click>
 
 <!-- ========= Canopy ============= -->
+
 <canopy>
  <name>canopy</name>
  <mode>in-transit</mode>
@@ -574,8 +564,6 @@
     <z>0.80</z>
    </position>
 </click>
-
-
 
   <wind>
    <name>wind</name>
@@ -621,7 +609,6 @@
    </pitch>
   </windOpen>
   
-
   <stall>
    <name>stall</name>
    <path>Aircraft/Yak-53/Sounds/Yak-53_stall.wav</path>
@@ -642,7 +629,6 @@
    </volume>
   </stall>
 
-  
   <maxG>
     <name>MaxMinG</name>
     <mode>once</mode>
@@ -666,22 +652,19 @@
     </position>
   </maxG>
 
-  
-  
-  
-  
-  
 <!--  binding -->
+
  <click>
   <name>batMaster on</name>
-   <path>Sounds/click.wav</path>
+   <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <property>controls/electric/battery-switch</property>
     </condition>
  </click>
+
  <click>
   <name>batMaster off</name>
-   <path>Sounds/click.wav</path>
+   <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <not>
       <property>controls/electric/battery-switch</property>
@@ -691,14 +674,15 @@
 
  <click>
   <name>Breaker generator on</name>
-   <path>Sounds/click.wav</path>
+    <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <property>controls/circuit-breakers/generator</property>
     </condition>
  </click>
+
  <click>
   <name>Breaker generator off</name>
-   <path>Sounds/click.wav</path>
+    <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <not>
       <property>controls/circuit-breakers/generator</property>
@@ -708,14 +692,15 @@
 
  <click>
   <name>Breaker ignition on</name>
-   <path>Sounds/click.wav</path>
+    <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <property>controls/circuit-breakers/ign</property>
     </condition>
  </click>
+
  <click>
   <name>Breaker ignition off</name>
-   <path>Sounds/click.wav</path>
+    <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <not>
       <property>controls/circuit-breakers/ign</property>
@@ -725,14 +710,15 @@
 
  <click>
   <name>Breaker gear on</name>
-   <path>Sounds/click.wav</path>
+   <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <property>controls/circuit-breakers/gear</property>
     </condition>
  </click>
+
  <click>
   <name>Breaker gear off</name>
-   <path>Sounds/click.wav</path>
+   <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <not>
       <property>controls/circuit-breakers/gear</property>
@@ -740,17 +726,17 @@
     </condition>
   </click>
 
-
  <click>
   <name>instrBreaker on</name>
-   <path>Sounds/click.wav</path>
+   <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <property>controls/circuit-breakers/eng-instr-1</property>
     </condition>
  </click>
+
  <click>
   <name>instrBreaker off</name>
-   <path>Sounds/click.wav</path>
+    <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <not>
       <property>controls/circuit-breakers/eng-instr-1</property>
@@ -760,14 +746,15 @@
 
  <click>
   <name>radioBreaker on</name>
-   <path>Sounds/click.wav</path>
+    <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <property>controls/circuit-breakers/nav-com-1</property>
     </condition>
  </click>
+
  <click>
   <name>radioBreaker off</name>
-   <path>Sounds/click.wav</path>
+   <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <not>
       <property>controls/circuit-breakers/nav-com-1</property>
@@ -777,14 +764,15 @@
 
  <click>
   <name>Breaker ann on</name>
-   <path>Sounds/click.wav</path>
+   <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <property>controls/circuit-breakers/ann</property>
     </condition>
  </click>
+
  <click>
   <name>Breaker ann off</name>
-   <path>Sounds/click.wav</path>
+    <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <not>
       <property>controls/circuit-breakers/ann</property>
@@ -794,14 +782,15 @@
 
  <click>
   <name>pitotBreaker on</name>
-   <path>Sounds/click.wav</path>
+   <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <property>controls/circuit-breakers/pitot-heat</property>
     </condition>
  </click>
+
  <click>
   <name>pitotBreaker off</name>
-   <path>Sounds/click.wav</path>
+    <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <not>
       <property>controls/circuit-breakers/pitot-heat</property>
@@ -812,7 +801,7 @@
 
  <click>
   <name>Pump on</name>
-   <path>Sounds/click.wav</path>
+    <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <property>controls/engines/engine/pump</property>
     </condition>
@@ -820,9 +809,10 @@
     <factor>0.5</factor>
    </volume>
   </click>
+
  <click>
   <name>Pump off</name>
-   <path>Sounds/click.wav</path>
+    <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <not>
       <property>controls/engines/engine/pump</property>
@@ -844,17 +834,17 @@
    </volume>
  </click>
 
-
  <click>
   <name>Fuel on</name>
-   <path>Sounds/click.wav</path>
+    <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <property>controls/engines/engine/mixture</property>
     </condition>
  </click>
+
  <click>
   <name>Fuel off</name>
-   <path>Sounds/click.wav</path>
+ <path>Aircraft/Yak-53/Sounds/click.wav</path>
     <condition>
      <not>
       <property>controls/engines/engine/mixture</property>
@@ -865,7 +855,7 @@
 <magneto>
  <name>mg</name>
  <mode>once</mode>
- <path>Sounds/click.wav</path>
+  <path>Aircraft/Yak-53/Sounds/click.wav</path>
    <condition>
    <or>
      <equals>
@@ -883,7 +873,7 @@
 <magneto1>
  <name>mg1</name>
  <mode>once</mode>
- <path>Sounds/click.wav</path>
+ <path>Aircraft/Yak-53/Sounds/click.wav</path>
    <condition>
    <or>
      <equals>
