@@ -5,9 +5,9 @@
    xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 
  <fileheader>
-  <author> Makswell + Aeromatic v 0.91 </author>
+  <author> Makswell, YV3399 + Aeromatic v 1.0 </author>
   <filecreationdate> 2011-05-04 </filecreationdate>
-  <version>$Revision: 1.10 $</version>
+  <version>$Revision: 2.0 $</version>
   <description> Models a Yak-53. </description>
  </fileheader>
 
@@ -421,16 +421,16 @@
       <input>fcs/rudder-cmd-norm</input>
       <input>fcs/yaw-trim-cmd-norm</input>
       <clipto>
-        <min> -0.75 </min>
-        <max>  0.75 </max>
+        <min> -0.80 </min>
+        <max>  0.80 </max>
       </clipto>
    </summer>
 
    <aerosurface_scale name="Rudder Control">
       <input>fcs/rudder-command-sum</input>
       <range>
-        <min> -0.75 </min>
-        <max>  0.75 </max>
+        <min> -0.80 </min>
+        <max>  0.80 </max>
       </range>
       <output>fcs/rudder-pos-rad</output>
    </aerosurface_scale>
@@ -438,8 +438,8 @@
    <aerosurface_scale name="rudder normalization">
       <input>fcs/rudder-pos-rad</input>
       <domain>
-        <min> -0.75 </min>
-        <max>  0.75 </max>
+        <min> -0.80 </min>
+        <max>  0.80 </max>
       </domain>
       <range>
         <min> -1 </min>
@@ -715,8 +715,6 @@
        </product>
     </function>
 	
-	
-	
     <function name="aero/coefficient/Clp">
        <description>Roll_moment_due_to_roll_rate</description>
        <product>
@@ -728,7 +726,6 @@
            <value>-0.4</value>
        </product>
     </function>
-
 	
 	<function name="aero/coefficient/Clr">
        <description>Roll_moment_due_to_yaw_rate</description>
@@ -907,4 +904,5 @@
   </axis>
 
  </aerodynamics>
+
 </fdm_config>
