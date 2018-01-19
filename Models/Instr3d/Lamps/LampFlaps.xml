@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<PropertyList>
+    <path>LampFl.ac</path>
+
+    
+  <animation>
+  <object-name>LampSelR</object-name> 
+  <type>select</type> 
+  <condition>
+  <and>
+  <greater-than>
+    <property>systems/electrical/outputs/bus</property>
+    <value>21</value>
+   </greater-than>
+   <equals>
+   <property>controls/circuit-breakers/gear</property>
+   <value>true</value>
+   </equals>
+   <equals>
+   <property>control/flaps-not-crash</property>
+   <value>true</value>
+   </equals>
+  <or>
+  <equals>
+    <property>controls/lamp-test</property>
+    <value>1</value>
+   </equals>
+  <equals>
+  <property>controls/flight/flaps</property> 
+  <value>1</value> 
+   </equals>
+  </or>
+  </and>
+  </condition>
+  </animation>
+  
+
+  <animation>
+  <object-name>LampSelG</object-name> 
+  <type>select</type> 
+  <condition>
+  <and>
+  <greater-than>
+    <property>systems/electrical/outputs/bus</property>
+    <value>21</value>
+   </greater-than>
+   <equals>
+   <property>controls/circuit-breakers/gear</property>
+   <value>true</value>
+   </equals>
+   <equals>
+   <property>control/flaps-not-crash</property>
+   <value>true</value>
+   </equals>
+  <or>
+  <equals>
+    <property>controls/lamp-test</property>
+    <value>1</value>
+   </equals>
+  <equals>
+  <property>controls/flight/flaps</property> 
+  <value>0</value> 
+   </equals>
+  </or>
+  </and>
+  </condition>
+  </animation>
+    
+        
+</PropertyList>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>Pnevmo.ac</path>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>Glass</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>glass.png</texture>
+    <object-name>Glass</object-name>
+  </animation>
+
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Needle1</object-name>  
+  <property>control/pnevmo</property>
+       <interpolation>
+        <entry><ind> 0</ind><dep> 60</dep></entry>
+        <entry><ind> 1</ind><dep> 140</dep></entry>
+       </interpolation>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+</animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Needle2</object-name>  
+  <property>control/pnevmo</property>
+       <interpolation>
+        <entry><ind> 0</ind><dep> -50</dep></entry>
+        <entry><ind> 1</ind><dep> -135</dep></entry>
+       </interpolation>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+</animation>
+
+
+
+
+</PropertyList>
+
+

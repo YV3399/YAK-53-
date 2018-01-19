@@ -1,0 +1,142 @@
+Запуск двигателя и подготовка ко взлету.
+
+1.Открыть пневмокран.(Shift + ~)
+
+2.Нажать стояночный тормоз. (Shift + b)
+
+3.Установить РУД в положение 1/3 хода. (PgUp / PgDn)
+
+4.Установить заливочным шприцом давление
+  на входе в карбюратор не менее 0.4
+  
+5.Включить АЗС-ы с 1 по 7 (кроме ОБОГРЕВ ПВД).
+
+6.Переключатель магнето перевести в положение 1+2.
+
+7.Открыть предохранительную крышку и нажать
+  кнопку ЗАПУСК ДВИГ.
+
+8.РУД-ом установить обороты двигателя 45-50%.
+  (При оборотах более 33% должен пагаснуть
+   транспарант ОТКАЗ ГЕНЕРАТОР).
+
+9.Прогреть двигатель до температуры масла не 
+  менее 40*С, головок цилиндров не менее 120*С.
+  (Во время прогрева можно установить ноль
+  высотомера, сбросить показания измерителя
+  перегрузки, проверить напряжение бортсети
+  и исправность сигнальных ламп и ламп указателя
+  остатка топлива).
+  
+10.Перед взлетом во избежание превышения температуры
+   головок цилиндров открыть створки маслорадиатора 
+   и ПОЛНОСТЬЮ открыть створки двигателя.
+
+
+Остановка двигателя.
+
+1.Полностью открыть створки двигателя.
+
+2.На 20-30 сек установить обороты около 65% для
+  прожига свечей.
+  
+3.Снизить обороты до 28-34%.
+
+4.Выключить магнето (перевести в положение 0).
+
+5.После остановки двигателя РУД перевести в 
+  положение минимальный газ.
+  
+6.Закрыть пожарный кран.
+
+7.Выключить все АЗС.
+
+8.Закрыть пневмокран.  
+
+
+ОГРАНИЧЕНИЯ
+
+1.Взлет с непрогретым двигателем приводит
+  к его остановке.
+  
+2.При скорости более 385 км/час - срывает фонарь.
+
+3.ВЫПУСК щитков при скорости более 170 км/час
+  приводит к их отрыву.
+
+4.Езда со скоростью более 165 км/час или посадка
+  с перегрузкой более 3 g "подламывает" шасси.
+
+5.Перегретый двигатель начинает дымить.
+
+-----------------------------------------------------------------
+Starten und Vorbereitungen für den Start.
+
+1.Otkryt pnevmokran. (Umschalt + ~)
+
+2. Drücken Sie die Feststellbremse. (Shift + b)
+
+3. Stellen Sie den Gashebel in Position 1/3 Umdrehung. (PgUp / PgDn)
+
+4. Installieren Sie die Grundierung Spritze Druck
+   am Eintritt in den Vergaser weniger als 0,4
+  
+5.Vklyuchit ACS-s 1 bis 7 (ausgenommen HEAT LDPE).
+
+6.Pereklyuchatel magneto zu 1 + 2 eingestellt.
+
+7.Otkryt Schutzabdeckung, und drücken Sie
+   MOTOR START-Taste.
+
+8.RUD th um 45-50% stellen Sie die Motordrehzahl.
+   (Bei Geschwindigkeiten von mehr als 33% pagasnut sollten
+    banner Generatorausfall).
+
+9.Progret Motor, bis die Öltemperatur nicht
+   weniger als 40 * C, die Zylinderköpfe von mindestens 120 * C.
+   (Während der Aufwärmphase kann auf Null gesetzt werden
+   Höhenmesser, setzen Sie die Zähler
+   Überlast, überprüfen Sie die Spannung in der Verdrahtung
+   und der Zustand der Warnleuchten und Anzeiger
+   Restkraftstoff).
+  
+10.Pered Start bis zur Übertemperatur zu vermeiden
+    Zylinderköpfe offene Blatt Ölkühler
+    und öffnen Sie die Klappe Motor.
+
+
+Stellen Sie den Motor.
+
+1.Polnostyu offenen Klappenmotor.
+
+2. Klicken Sie in 20-30 Sekunden, um einen Umsatz von etwa 65% für zu etablieren
+   brennende Kerzen.
+  
+3.Snizit Geschwindigkeit auf 28 bis 34%.
+
+4.Vyklyuchit Magnetos (auf 0 gesetzt).
+
+5. Nach dem Abstellen des Motors Gashebel in übersetzen
+   die Position des minimalen Gas.
+  
+6.Zakryt Hydranten.
+
+7.Vyklyuchit alle Tankstellen.
+
+8.Zakryt pnevmokran.
+
+
+EINSCHRÄNKUNGEN
+
+1.Vzlet bei kaltem Motor Ergebnisse
+   um ihn zu stoppen.
+  
+2. Bei einer Geschwindigkeit von mehr als 385 km / h - bricht Laterne.
+
+3.VYPUSK Wachen mit einer Geschwindigkeit von über 170 km / h
+   führt zu ihrer Trennung.
+
+4.Ezda bei einer Geschwindigkeit von über 165 km / h oder Lande
+   mit einer Überlast von mehr als 3 g "knickt" Chassis.
+
+5.Peregrety Motor zu rauchen beginnt.

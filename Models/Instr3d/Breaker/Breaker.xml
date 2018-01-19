@@ -1,0 +1,442 @@
+<?xml version="1.0"?>
+<PropertyList>
+    <path>Breaker.ac</path>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>batMaster</object-name>  
+  <property>controls/electric/battery-switch</property>
+  <factor>-20</factor> 
+  <center>
+   <x-m>0.0029</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+ 
+  <animation>
+  <type>rotate</type>
+  <object-name>genBreaker</object-name>  
+  <property>controls/circuit-breakers/generator</property>
+  <factor>-40</factor> 
+  <center>
+   <x-m>0.0029</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation> 
+ 
+ <animation>
+  <type>rotate</type>
+  <object-name>ignitBreaker</object-name>  
+  <property>controls/circuit-breakers/ign</property>
+  <factor>-40</factor> 
+  <center>
+   <x-m>0.0029</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation> 
+ 
+ <animation>
+  <type>rotate</type>
+  <object-name>gearBreaker</object-name>  
+  <property>controls/circuit-breakers/gear</property>
+  <factor>-40</factor> 
+  <center>
+   <x-m>0.0029</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation> 
+ 
+ <animation>
+  <type>rotate</type>
+  <object-name>instrBreaker</object-name>  
+  <property>controls/circuit-breakers/eng-instr-1</property>
+  <factor>-40</factor> 
+  <center>
+   <x-m>0.0029</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation> 
+
+ <animation>
+  <type>rotate</type>
+  <object-name>radioBreaker</object-name>  
+  <property>controls/circuit-breakers/nav-com-1</property>
+  <factor>-40</factor> 
+  <center>
+   <x-m>0.0029</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation> 
+
+  <animation>
+  <type>rotate</type>
+  <object-name>annBreaker</object-name>  
+  <property>controls/circuit-breakers/ann</property>
+  <factor>-40</factor> 
+  <center>
+   <x-m>0.0029</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation> 
+ 
+ <animation>
+  <type>rotate</type>
+  <object-name>pitotBreaker</object-name>  
+  <property>controls/circuit-breakers/pitot-heat</property>
+  <factor>-40</factor> 
+  <center>
+   <x-m>0.0029</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation> 
+ 
+
+  <animation>
+    <type>pick</type>
+    <object-name>batOn</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>batMaster</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/electric/battery-switch</property>
+      <value>true</value>                     
+      </binding>
+  </action>    
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>batOff</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>batMaster</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/electric/battery-switch</property>
+      <value>false</value>                     
+      </binding>
+  </action>    
+  </animation>
+
+
+  <animation>
+    <type>pick</type>
+    <object-name>generOn</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>generator</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/circuit-breakers/generator</property>
+      <value>true</value>                     
+      </binding>
+  </action>    
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>generOff</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>generator</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/circuit-breakers/generator</property>
+      <value>false</value>                     
+      </binding>
+  </action>    
+  </animation>
+
+
+  <animation>
+    <type>pick</type>
+    <object-name>ignitionOn</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>ignition breaker</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/circuit-breakers/ign</property>
+      <value>true</value>                     
+      </binding>
+  </action>    
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>ignitionOff</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>ignition breaker</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/circuit-breakers/ign</property>
+      <value>false</value>                     
+      </binding>
+   <binding>
+    <command>property-assign</command>
+    <property>systems/electrical/outputs/ign</property>
+      <value>0.1</value>                     
+      </binding>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/engines/engine/magnetos</property>
+      <value>0</value>                     
+      </binding>
+  </action>    
+  </animation>
+
+
+  <animation>
+    <type>pick</type>
+    <object-name>gearOn</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>gear breaker</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/circuit-breakers/gear</property>
+      <value>true</value>                     
+      </binding>
+  </action>    
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>gearOff</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>gear breaker</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/circuit-breakers/gear</property>
+      <value>false</value>                     
+      </binding>
+   <binding>
+    <command>property-assign</command>
+    <property>systems/electrical/outputs/gear</property>
+      <value>0.1</value>                     
+      </binding>
+  </action>    
+  </animation>
+
+
+  <animation>
+    <type>pick</type>
+    <object-name>instrOn</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>instruments breaker</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/circuit-breakers/eng-instr-1</property>
+      <value>true</value>                     
+      </binding>
+  </action>    
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>instrOff</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>instruments breaker</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/circuit-breakers/eng-instr-1</property>
+      <value>false</value>                     
+      </binding>
+   <binding>
+    <command>property-assign</command>
+    <property>systems/electrical/outputs/eng-instr-1</property>
+      <value>0.1</value>                     
+      </binding>
+  </action>    
+  </animation>
+
+  
+  <animation>
+    <type>pick</type>
+    <object-name>radioOn</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>radio breaker</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/circuit-breakers/nav-com-1</property>
+      <value>true</value>                     
+      </binding>
+   <binding>
+      <command>nasal</command>
+      <script>scripts.vol_set()</script>
+   </binding>
+   <binding>
+      <command>nasal</command>
+      <script>scripts.chvol_set()</script>
+   </binding>
+  </action>    
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>radioOff</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>radio breaker</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/circuit-breakers/nav-com-1</property>
+      <value>false</value>                     
+      </binding>
+   <binding>
+    <command>property-assign</command>
+    <property>systems/electrical/outputs/nav-com-1</property>
+    <value>0.1</value>                     
+    </binding>
+   <binding>
+    <command>property-assign</command>
+    <property>instrumentation/comm/volume</property>
+    <value>0.0</value>                     
+    </binding>
+   <binding>
+    <command>property-assign</command>
+    <property>sim/sound/chatter/volume</property>
+    <value>0.0</value>                     
+    </binding>
+  </action>    
+  </animation>
+
+
+  <animation>
+    <type>pick</type>
+    <object-name>annOn</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>ann breaker</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/circuit-breakers/ann</property>
+      <value>true</value>                     
+      </binding>
+  </action>    
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>annOff</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>ann breaker</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/circuit-breakers/ann</property>
+      <value>false</value>                     
+      </binding>
+   <binding>
+    <command>property-assign</command>
+    <property>systems/electrical/outputs/ann</property>
+      <value>0.1</value>                     
+      </binding>
+  </action>    
+  </animation>
+
+  
+  <animation>
+    <type>pick</type>
+    <object-name>pitotOn</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>pitot breaker</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/circuit-breakers/pitot-heat</property>
+      <value>true</value>                     
+      </binding>
+  </action>    
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>pitotOff</object-name>
+    <visible>false</visible>
+  <action>       
+   <desc>pitot breaker</desc>
+   <button>0</button>
+   <binding>
+    <command>property-assign</command>
+    <property>controls/circuit-breakers/pitot-heat</property>
+      <value>false</value>                     
+      </binding>
+   <binding>
+    <command>property-assign</command>
+    <property>systems/electrical/outputs/pitot-heat</property>
+      <value>0.1</value>                     
+      </binding>
+  </action>    
+  </animation>
+  
+</PropertyList>

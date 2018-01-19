@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<PropertyList>
+    <path>TestLamp.ac</path>
+
+  
+ 
+  
+  <animation>
+    <type>pick</type>
+    <object-name>test</object-name>
+    <visible>false</visible>
+  <action>                             
+   <desc>Lamp test</desc>
+   <button>0</button>               
+   <binding>
+      <command>property-assign</command>
+      <property>controls/lamp-test</property>      
+      <value>1</value>                 
+   </binding>
+   <mod-up>
+    <binding>
+      <command>property-assign</command>
+      <property>controls/lamp-test</property>      
+      <value>0</value>
+    </binding>
+   </mod-up>      
+  </action>
+ </animation>    
+
+ <animation>
+  <type>translate</type>
+  <object-name>lampTestPB</object-name>
+  <property>controls/lamp-test</property>
+  <factor>-0.004</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>  
+ </animation>  
+  
+ 
+        
+</PropertyList>

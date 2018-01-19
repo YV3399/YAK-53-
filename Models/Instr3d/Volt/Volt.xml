@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>Volt.ac</path>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>Glass</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>glass.png</texture>
+    <object-name>Glass</object-name>
+  </animation>
+  
+
+  <animation>
+    <type>pick</type>
+    <object-name>VoltPB</object-name>
+    <visible>true</visible>
+  <action>                             
+   <desc>Voltmetr switch</desc>
+   <button>0</button>               
+   <binding>
+      <command>property-assign</command>
+      <property>control/voltmetr</property>      
+      <value>1</value>                 
+   </binding>
+   <mod-up>
+    <binding>
+      <command>property-assign</command>
+      <property>control/voltmetr</property>      
+      <value>0</value>
+    </binding>
+   </mod-up>      
+  </action>
+ </animation>    
+
+ <animation>
+  <type>translate</type>
+  <object-name>VoltPB</object-name>
+  <property>control/voltmetr</property>
+  <factor>-0.004</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>  
+ </animation>  
+
+  <animation>
+  <object-name>NeedleV</object-name> 
+  <type>select</type> 
+  <condition>
+  <or>
+  <equals>
+  <property>control/voltmetr</property> 
+  <value>1</value> 
+  </equals>
+  <less-than>
+  <property>systems/electrical/outputs/bus</property> 
+  <value>21</value> 
+  </less-than>
+  </or>
+  </condition>
+  </animation>
+ 
+  <animation>
+  <object-name>NeedleA</object-name> 
+  <type>select</type> 
+  <condition>
+  <and>
+  <equals>
+  <property>control/voltmetr</property> 
+  <value>0</value> 
+  </equals>
+  <greater-than>
+  <property>systems/electrical/outputs/bus</property> 
+  <value>21</value> 
+  </greater-than>
+  </and>
+  </condition>
+  </animation>
+ 
+ 
+ <animation>
+  <type>rotate</type>
+  <object-name>NeedleV</object-name>
+  <property>systems/electrical/outputs/bus</property>
+       <interpolation>
+        <entry><ind> 0</ind><dep>0</dep></entry>
+        <entry><ind>30</ind><dep>-202.5</dep></entry>
+      </interpolation>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+</animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>NeedleA</object-name>
+  <property>control/amper</property>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+</animation>
+ 
+ 
+ 
+
+</PropertyList>

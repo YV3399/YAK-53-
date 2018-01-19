@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>PumpKran.ac</path>
+
+
+  <animation>
+    <type>pick</type>
+    <object-name>PumpHandle</object-name>
+    <visible>true</visible>
+  <action>	    
+   <desc>priming pump</desc> 
+  <button>0</button> 
+   <binding>     
+   <command>property-toggle</command>    
+   <property>controls/engines/engine/pump</property>
+  </binding>
+   <binding>
+      <command>nasal</command>
+      <script>scripts.FP_set()</script>
+   </binding>
+  </action>	
+  </animation>
+  
+
+  <animation>
+  <type>translate</type>
+  <object-name>PumpHandle</object-name>  
+  <property>controls/engines/engine/pump</property>
+  <factor>0.03</factor>
+   <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>  
+
+
+  <animation>
+    <type>pick</type>
+    <object-name>Predohr</object-name>
+    <visible>true</visible>
+  <action>	    
+   <desc>Gear avar</desc> 
+  <button>0</button> 
+   <binding>     
+   <command>property-toggle</command>    
+   <property>control/gear-down2</property>
+  </binding>
+   <binding>
+      <command>nasal</command>
+      <script>scripts.Gear_set()</script>
+   </binding>
+  </action>	
+  </animation>
+ 
+ 
+ 
+ 
+
+ <animation>
+  <type>rotate</type>
+  <object-name>KranGear</object-name>
+  <object-name>Predohr</object-name>  
+  <property>control/gear-down2</property>
+       <interpolation>
+        <entry><ind>0</ind><dep>0</dep></entry>
+        <entry><ind>1</ind><dep>-202.5</dep></entry>
+      </interpolation>
+  <center>
+   <x-m>0.0</x-m>
+   <y-m>-0.0308</y-m>
+   <z-m>-0.00510143</z-m>
+   </center>   
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+</animation>
+ 
+ 
+ <animation>
+  <type>rotate</type>
+  <object-name>Predohr</object-name>  
+  <property>control/gear-down2</property>
+       <interpolation>
+        <entry><ind>0</ind><dep>0</dep></entry>
+        <entry><ind>1</ind><dep>-150</dep></entry>
+      </interpolation>
+  <center>
+   <x-m>0.0184</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0192</z-m>
+   </center>   
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+</animation>
+   
+ 
+ 
+
+</PropertyList>
